@@ -1,0 +1,313 @@
+body {
+	background-color: black;
+}
+
+.footer-background {
+	background-color: black;
+	max-width: 100%;
+	padding-top: 30px;
+}
+.logo-hygi-mobile {
+	text-align: center;
+}
+.tablet-width {
+	padding-bottom: 20px;
+}
+
+.navbar-nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.logo-desk {
+	width: 170px;
+	height: 30px;
+}
+.nav-item {
+	font-size: 14px;
+}
+.tablet-icon-fb,
+.tablet-icon-ig {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer-text {
+	font-size: 18px;
+}
+.navbar-nav {
+	width: 30%;
+}
+.navbar-nav .dropdown-menu {
+	width: 250px;
+	background-color: black;
+	opacity: 0.9;
+}
+.dropdown-item {
+	font-size: 14px;
+}
+.container {
+	max-width: 100%;
+}
+.footer-text {
+	font-size: 16px;
+	padding: 3px;
+}
+.products-pages {
+	list-style: none;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.products-pages li a {
+	color: black;
+	text-decoration: none;
+}
+.products-pages li a:hover {
+	color: lightgreen;
+	text-decoration: none;
+	transition: ease-in-out 0.3s;
+}
+.home-pages {
+	list-style: none;
+	padding-top: 100px;
+}
+.home-pages li a {
+	color: lightgreen;
+	text-decoration: none;
+}
+.home-pages li a:hover {
+	color: white;
+	transition: ease-in-out 0.3s;
+	text-decoration: none;
+}
+.container-home-page {
+	background-color: black;
+}
+.home-pages {
+	list-style: none;
+	padding-top: 0px;
+	padding-left: 0rem;
+}
+#home-icons {
+	font-size: 50px;
+}
+.menu-text {
+	font-size: 12px;
+}
+.home-pages li {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.text-about-products {
+	padding-top: 100px;
+	color: white;
+	padding-left: 30px;
+}
+.text-products {
+	color: white;
+	padding-top: 30px;
+}
+.sorbent-tubes-products {
+	font-size: 22px;
+}
+.box-products {
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 10px;
+	background-color: white;
+}
+.tubes-size {
+	width: 240px;
+	height: 240px;
+}
+.text-about-tubes {
+	padding-top: 100px;
+	background-color: black;
+}
+.title-text-tubes {
+	background-color: black;
+}
+.text-tubes {
+	padding: 50px;
+}
+.sorbent-tubes {
+	width: 300px;
+	height: 340px;
+}
+.table-color {
+	background-color: lightgreen;
+}
+.width-certificate {
+	width: 10%;
+}
+.specific-tubes {
+	padding: 10px 50px 10px 50px;
+}
+.width-certificate {
+	width: 100%;
+	position: relative;
+	bottom: 20px;
+}
+.previous-button {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	color: white;
+}
+.previous-icon {
+	font-size: 20px;
+}
+.previous-button-a {
+	display: inline-block;
+}
+.previous-button-a:hover {
+	text-decoration: none;
+}
+.tubes-size-info {
+	width: 80px;
+	height: 80px;
+}
+.tubes-letter {
+	padding-bottom: 70px;
+	padding-top: 30px;
+}
+
+@media (min-width: 576px) {
+	.logo-desk {
+		position: absolute;
+		left: 13px;
+	}
+	.footer-text {
+		width: 40%;
+	}
+	.container-footer-2 {
+		width: 100%;
+	}
+	.footer-text {
+		width: 100%;
+	}
+	.navbar-nav {
+		width: 100%;
+	}
+	.nav-background-color {
+		background-color: black;
+	}
+	.nav-item {
+		font-size: 16px;
+	}
+	.home-pages {
+		list-style: none;
+		padding-top: 100px;
+	}
+	.home-pages li a {
+		text-decoration: none;
+	}
+	.home-pages li {
+		padding-right: 20px;
+		padding-left: 0px;
+	}
+	.menu-text {
+		font-size: 14px;
+	}
+	.sorbent-tubes {
+		width: 300px;
+		height: 340px;
+	}
+	.tubes-size-info {
+		width: 100px;
+		height: 100px;
+	}
+	.tubes-letter {
+		padding-bottom: 70px;
+		padding-top: 30px;
+	}
+	.table-responsive {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.specific-tubes {
+		padding: 10px 80px 10px 80px;
+	}
+	.width-certificate {
+		width: 20%;
+		position: relative;
+		bottom: 110px;
+	}
+	.container-footer-1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.text-products {
+		color: white;
+		padding-top: 30px;
+		padding-left: 30px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-footer-1-in,
+	.container-footer-3-desk {
+		width: 100%;
+	}
+	.menu-text {
+		font-size: 16px;
+	}
+	.home-pages li {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.sorbent-tubes {
+		width: 350px;
+		height: 360px;
+	}
+	.tubes-size-info {
+		width: 180px;
+		height: 180px;
+	}
+	.table-responsive {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+	.specific-tubes {
+		padding: 10px 150px 10px 150px;
+	}
+	.tubes-letter {
+		padding-bottom: 70px;
+		padding-top: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.footer-text {
+		width: 90%;
+	}
+	#home-icons {
+		font-size: 65px;
+	}
+	.home-pages li {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.text-tubes {
+		padding: 50px 150px 50px 150px;
+	}
+	.specific-tubes {
+		padding: 10px 150px 10px 150px;
+	}
+	.width-certificate {
+		width: 10%;
+		position: relative;
+		bottom: 120px;
+	}
+	.previous-button {
+		padding: 10px;
+		border-radius: 5px;
+		background-color: lightgreen;
+		color: white;
+	}
+	.tubes-letter {
+		padding-bottom: 40px;
+		padding-top: 10px;
+	}
+}

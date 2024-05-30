@@ -1,0 +1,33 @@
+/* table CSS */
+
+tbody, td, tfoot, th, thead, tr {
+	border-width: 3px;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+
+.table {
+	font-size: 13px;
+	width: 80%; 
+  }
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 850px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 1140px !important;
+	}
+	.table {
+		font-size: 16px; 
+		width: 100%; 
+	  }
+}
